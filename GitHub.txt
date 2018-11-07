@@ -8,6 +8,8 @@ git checkout HEAD filename: Discards changes in the working directory.
 git reset HEAD filename: Unstages file changes in the staging area.
 git reset commit_SHA (primeros 7 digitos del commit): Resets to a previous commit in your commit history.
 git reset --hard SHA: borra el commit y su codigo.
+git reset --soft SHA: borra el commt pero no el codigo.
+git remote remove "rama en el repositorio remoto": borra la conexion con el repositorio remoto.
 git checkout "numero de commit": vuelve el proyecto a ese commit.
 git branch -d branch_name: borramos una rama.
 git branch -D branch_name: forzarmos a borrar una rama.
@@ -22,6 +24,9 @@ git remote add "alias" "url repositorio remoto": crea repositorio conel alias es
 git checkout -- "nombre archivo": deshace los ultimos cambios.
 echo "codigo del archivo nuevo" > "nombre del archivo y su extension (ejemplo: archivo.txt)": crea un nuevo archivo con el codigo especificado.
 git diff SHA1 SHA2: obtiene los cambios entre ambos commits.
+git show HEAD: The output of this command will display everything the git log command displays for the HEAD commit, plus all the file changes that were committed.
+
+
 
 git --help: muestra los comandos de git.
 
