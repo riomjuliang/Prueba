@@ -16,6 +16,7 @@ git remote -v: Lists a Git project's remotes.
 git fetch: Fetches work from the remote into the local copy.
 git merge origin/master: Merges origin/master into your local branch.
 git push origin(alias del repositorio) <branch_name>: Pushes a local branch to the origin remote.
+git push -u "alias remoto" "rama"
 git log --oneline: listado de commits en una sola linea cada uno.
 git remote add "alias" "url repositorio remoto": crea repositorio conel alias especificado en la direccion url del remoto
 git checkout -- "nombre archivo": deshace los ultimos cambios.
