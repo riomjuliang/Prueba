@@ -1,0 +1,30 @@
+git init : creates a new Git repository
+git status : inspects the contents of the working directory and staging area
+git add filename : adds files from the working directory to the staging area
+git diff filename : shows the difference between the working directory and the staging area
+git commit -m "Mensaje": permanently stores file changes from the staging area in the repository
+git log : shows a list of all previous commits
+git checkout HEAD filename: Discards changes in the working directory.
+git reset HEAD filename: Unstages file changes in the staging area.
+git reset commit_SHA (primeros 7 digitos del commit): Resets to a previous commit in your commit history.
+git reset --hard SHA: borra el commit y su codigo.
+git checkout "numero de commit": vuelve el proyecto a ese commit.
+git branch -d branch_name: borramos una rama.
+git branch -D branch_name: forzarmos a borrar una rama.
+git clone remote_location clone_name
+git remote -v: Lists a Git project's remotes.
+git fetch: Fetches work from the remote into the local copy.
+git merge origin/master: Merges origin/master into your local branch.
+git push origin(alias del repositorio) <branch_name>: Pushes a local branch to the origin remote.
+git log --oneline: listado de commits en una sola linea cada uno.
+git remote add "alias" "url repositorio remoto": crea repositorio conel alias especificado en la direccion url del remoto
+git checkout -- "nombre archivo": deshace los ultimos cambios.
+echo "codigo del archivo nuevo" > "nombre del archivo y su extension (ejemplo: archivo.txt)": crea un nuevo archivo con el codigo especificado.
+
+git --help: muestra los comandos de git.
+
+git push "Nombre repositorio" "rama": sube a la nube los cambios de la rama seleccionada.
+
+cd "nombrecarpeta" se posiciona en la carpeta especificada.
+
+
