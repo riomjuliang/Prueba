@@ -33,6 +33,8 @@ git checkout HEAD "nombre del archivo": deshace las ultimas modificaciones en el
 SHA: codigo de cada commit
 branch: rama.
 remote: repositorio en la nube.
+ls: muestra lo que hay dentro del directorio donde estamos posicionados.
+pwd: muestra la ruta donde estamos colocados.
 
 
 git --help: muestra los comandos de git.
