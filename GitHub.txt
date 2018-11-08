@@ -4,15 +4,18 @@ git add filename : adds files from the working directory to the staging area
 git diff filename : shows the difference between the working directory and the staging area
 git commit -m "Mensaje": permanently stores file changes from the staging area in the repository
 git log : shows a list of all previous commits
-git checkout HEAD filename: Discards changes in the working directory.
-git reset HEAD filename: Unstages file changes in the staging area.
+git checkout HEAD filename: To restore a file in the working directory to look as it did in your last commit
+git reset HEAD filename:  removes file from the staging area
 git reset commit_SHA (primeros 7 digitos del commit): Resets to a previous commit in your commit history.
 git reset --hard SHA: borra el commit y su codigo.
-git reset --soft SHA: borra el commt pero no el codigo.
+git reset --soft SHA: borra el commit pero no el codigo.
 git remote remove "rama en el repositorio remoto": borra la conexion con el repositorio remoto.
 git checkout "numero de commit": vuelve el proyecto a ese commit.
 git branch -d branch_name: borramos una rama.
 git branch -D branch_name: forzarmos a borrar una rama.
+gir branch: lista todas las ramas.
+git branch "nombreNuevaRama": crea una nueva rama
+git checkout "nombreRama": se cambia a dicha rama.
 git clone remote_location clone_name
 git remote -v: Lists a Git project's remotes.
 git fetch: Fetches work from the remote into the local copy.
@@ -25,7 +28,11 @@ git checkout -- "nombre archivo": deshace los ultimos cambios.
 echo "codigo del archivo nuevo" > "nombre del archivo y su extension (ejemplo: archivo.txt)": crea un nuevo archivo con el codigo especificado.
 git diff SHA1 SHA2: obtiene los cambios entre ambos commits.
 git show HEAD: The output of this command will display everything the git log command displays for the HEAD commit, plus all the file changes that were committed.
+git checkout HEAD "nombre del archivo": deshace las ultimas modificaciones en el archivo especificado.
 
+SHA: codigo de cada commit
+branch: rama.
+remote: repositorio en la nube.
 
 
 git --help: muestra los comandos de git.
