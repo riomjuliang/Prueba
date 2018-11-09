@@ -1,1 +1,3 @@
 Funcion caniche
+
+Funcion dogo
