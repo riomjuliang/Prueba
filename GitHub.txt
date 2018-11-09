@@ -35,6 +35,7 @@ branch: rama.
 remote: repositorio en la nube.
 ls: muestra lo que hay dentro del directorio donde estamos posicionados.
 pwd: muestra la ruta donde estamos colocados.
+mkrdir: Crea una nueva carpeta.
 
 
 git --help: muestra los comandos de git.
