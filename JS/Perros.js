@@ -1,2 +1,2 @@
 Funcion caniche
-Funcion labrador
+Funcion dogo
