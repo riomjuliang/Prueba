@@ -1,0 +1,2 @@
+Backend: Todo lo que está en el sug de JAVA.
+Frontend: React - Express - Node JS - Javascript - Flux + Redux - ES6 + Babel
